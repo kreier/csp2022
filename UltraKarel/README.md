@@ -1,6 +1,6 @@
 # Spiral Solution
 
-The starting point to the maze looks like the left, the final is the right. What is the minimum amount of lines to solve the maze, put a ball on each spot and face East?
+The starting point to the maze looks like the left, the final is the right. What is the minimum amount of lines to solve the maze, put a ball on each spot and face East? [Go to the challenge on CodeHS](https://codehs.com/sandbox/mkreier2022/mastery-check-module-2-challenge-218)
 
 <img src="start.png" width="48%"> <img src="final.png" width="48%">
 
@@ -14,22 +14,13 @@ for i in range(20):
         put_ball()
     turn_left()
 ```
-```
+
 ## Without conditional statements (if or while): 6 lines 
 
 ``` py
 x = [9,9,9,8,8,7,7,6,6,5,5,4,4,3,3,2,2,1,1,0]
 for k in range(len(x)):
     for j in range(x[k]):
-        move()
-        put_ball()
-    turn_left()
-```
-
-## Without lists, arrays or conditional statements: 
-# 5 lines from Hajoon
-for i in range(20):
-    while front_is_clear():
         move()
         put_ball()
     turn_left()
