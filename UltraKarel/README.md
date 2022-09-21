@@ -85,12 +85,27 @@ for i in range(19):
     lane(-1 * (i/2 - 9))
 ```
 
-### 5 lines are possible!
+### 5 lines are possible - two examples
 
 ``` py
-def is_this_doable?
+for i in range(20):
+    for j in range((9 - int((float(i)/2) - 0.5))):
+        move()
+        put_ball()
+    turn_left()
 ```
 
+and
+
+``` py
+for i in range(999, 55, -49):
+    for j in range(int(i/100)):
+        move()
+        put_ball()
+    turn_left()
+```
+
+PS: range(996, 77, -48) works too
 
 ## General code - 218 lines of instruction
 
