@@ -7,7 +7,6 @@ The starting point to the maze looks like the left, the final is the right. What
 ## Shortest solution: 5 lines from Hajoon
 
 ``` py
-# 5 lines from Hajoon
 for i in range(20):
     while front_is_clear():
         move()
@@ -86,7 +85,7 @@ for i in range(19):
     lane(-1 * (i/2 - 9))
 ```
 
-### 7 lines update
+### 5 lines are possible!
 
 ``` py
 def is_this_doable?
